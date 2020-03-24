@@ -1,0 +1,7 @@
+Hadoop is a framework for running applications on large clusters of commodity hardware. The Hadoop framework transparently provides applications both reliability and data motion. Hadoop implements a computational paradigm named map/reduce, where the application is divided into many small fragments of work, each of which may be executed or reexecuted on any node in the cluster. In addition, it provides a distributed file system that stores data on the compute nodes, providing very high aggregate bandwidth across the cluster. Both map/reduce and the distributed file system are designed so that node failures are automatically handled by the framework.
+
+The intent is to scale Hadoop up to handling thousand of computers. Hadoop has been tested on clusters of 600 nodes.
+
+Hadoop is a Lucene sub-project that contains the distributed computing platform that was formerly a part of Nutch. This includes the Hadoop Distributed Filesystem (HDFS) and an implementation of map/reduce.
+
+source: http://lucene.apache.org/hadoop/about.html

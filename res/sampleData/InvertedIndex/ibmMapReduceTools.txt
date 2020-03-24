@@ -1,0 +1,17 @@
+What is IBM MapReduce Tools for Eclipse?
+
+IBM MapReduce Tools for Eclipse is a plug-in that supports the creation of MapReduce applications within Eclipse. It uses the Hadoop open-source MapReduce framework, which enables data-intensive applications to run on large clusters of commodity hardware.
+
+The plug-in supports the following features from within Eclipse:
+
+    * the ability to package and deploy a Java project as a JAR (Java Archive) file to a Hadoop server (local and remote)
+    * cheat sheets that assist with the development process
+    * a separate perspective with a view of Hadoop servers, the Hadoop distributed file system (DFS), and current job status
+    * wizards for facilitating the development of classes based on the MapReduce framework.
+
+This plug-in runs on Windows, Linux, or any system that can run Eclipse.
+
+How does it work?
+The plug-in automatically creates projects with the Hadoop libraries for development and testing. Templates for MapReduce drivers are also provided. After a project is completed, the plug-in uses SCP (secure copy) to deploy the code to a Hadoop server and then remotely executes it via SSH (secure shell). During execution, the plug-in communicates with the Hadoop task tracker via HTTP and displays the job status.
+
+source: http://www.alphaworks.ibm.com/tech/mapreducetools

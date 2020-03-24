@@ -1,0 +1,5 @@
+MapReduce is a software framework originally developed by Google to support parallel computations over large (greater than 100 terabyte) data sets on unreliable clusters of computers. The name is derived from the map and reduce functions commonly used in functional programming.
+
+MapReduce implementations have been written in C++, Python, Ruby, Java and some other.
+
+source: http://en.wikipedia.org/wiki/MapReduce
